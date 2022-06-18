@@ -1,7 +1,5 @@
 <?php
 session_start();
-    
-$_SESSION['razina'] = '0';
 
     if(isset($_POST['submit'])) {
         $k_ime = $_POST['k_ime'];
