@@ -67,7 +67,7 @@
                     </header>
 
                     <main class="wrapper">
-                <h2>PREPORUKE</h2>
+                <h2>'.$kategorija'.</h2>
                 <hr>
                 <article>
                     <h2 class="clanak_tekst">'.$naslov.'</h2>
