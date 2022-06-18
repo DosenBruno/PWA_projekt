@@ -55,11 +55,12 @@
                         <section>
                             <nav>
                                 <ul>
-                                    <li><a href="index.php">Početna</a></li>
+                                    <li><a href="home.php">Početna</a></li>
                                     <li><a href="kategorija.php?id=preporuke">Preporuke</a></li>
                                     <li><a href="kategorija.php?id=recenzije">Recenzije</a>
                                     <li><a href="kategorija.php?id=fandom">Fandom</a></li>
                                     <li><a href="unos.php">Novi članak</a></li>
+                                    <li><a href="index.php">Odjava</a></li>
                                 </ul>
                             </nav>
                         </section>
