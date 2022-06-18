@@ -34,7 +34,7 @@ session_start();
                 mysqli_stmt_execute($stmt);
 
             }
-                header('location: http://localhost/pwa_projekt/home.php');
+                header('location: index.php');
            }
 
         mysqli_close($dbc);
