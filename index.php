@@ -18,7 +18,7 @@ $_SESSION['razina'] = '0';
                 if(password_verify($lozinka, $row['lozinka'])) {
                     $_SESSION['k_ime'] = $k_ime;
                     $_SESSION['razina'] = $row['razina'];
-                    header('location: http://localhost/pwa_projekt/home.php');
+                    header('location: home.php');
                     
                 }
 
