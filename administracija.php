@@ -99,10 +99,10 @@ define('UPLPATH', 'images/');
                                     $result2 = mysqli_query($dbc, $query2); 
 
                                     if($result2) {
-                                        echo '<a href="index.php"><span class="obavijest">Članak je obrisan, kliknite za povratak na naslovnicu</span></a>';
+                                        echo '<a href="home.php"><span class="obavijest">Članak je obrisan, kliknite za povratak na naslovnicu</span></a>';
                                     }
                                     else {
-                                        echo '<a href="index.php"><span class="obavijest">Nije moguće obrisati članak, kliknite za povratak na naslovnicu</span></a>';
+                                        echo '<a href="home.php"><span class="obavijest">Nije moguće obrisati članak, kliknite za povratak na naslovnicu</span></a>';
                                     }
                                    
                                     mysqli_close($dbc);}
